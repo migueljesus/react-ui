@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello React</title>
+        <!--link href="dist/library.css" rel="stylesheet" media="all" /-->
+        <script src="/webpack-dev-server.js"></script>
+        <style type="text/css">
+            html, body
+            {
+                height: 100%;
+                overflow: hidden;
+                margin: 0px;
+                font-family: arial;
+            }
+
+            nav
+            {
+                width: 250px;
+                border-right: 1px solid lightgray;
+            }
+            nav ul
+            {
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+
+            nav li
+            {
+                cursor: pointer;
+                white-space: nowrap;
+                border-bottom: 1px solid lightgray;
+                padding: 5px 10px;
+            }
+        </style>
+    </head>
+    <body class="vbox">
+        <div id="container" class="vbox center"></div>
+        <script src="dist/library.js"></script>
+    </body>
+</html>

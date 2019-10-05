@@ -1,0 +1,46 @@
+{
+  "name": "react-ui",
+  "version": "1.0.1",
+  "description": "KIH React Components Library",
+  "main": "dist/library.js",
+  "scripts": {
+    "build": "webpack --mode=build --config ./webpack.prod.config.js",
+    "start": "webpack-dev-server --progress --inline --watch --hot --config ./webpack.config.js --host 0.0.0.0 --port 5000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://migueljesus@bitbucket.org/migueljesus/react-ui.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "babel",
+    "SMEH_MLDY"
+  ],
+  "author": "Miguel Ibarra",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/migueljesus/react-ui#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "react": "^15.4.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "dependencies": {
+    "css-element-queries": "^0.4.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "react-dom": "^15.4.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
